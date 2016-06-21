@@ -13,7 +13,7 @@ function uppercasesAllLetters($str) {
 // Write your own "tests" below. Refer to the the examples from exercise #1.
 
 echo "\nTesting that 'dog' is uppercase.\n";
-if (uppercasesAllLetters("dog") == DOG) {
+if (uppercasesAllLetters("dog") == "DOG") {
   echo "Success! Ruff ruff!";
 }
 else{
@@ -22,7 +22,7 @@ else{
 echo "\n-------------------------------------------------------------------\n";
 
 echo "\nTesting that 'Cat' is uppercase.\n";
-if (uppercasesAllLetters("Cat") == CAT) {
+if (uppercasesAllLetters("Cat") == "CAT") {
   echo "Success! Me-ow!";
 }
 else{
