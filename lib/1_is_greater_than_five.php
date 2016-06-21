@@ -15,7 +15,9 @@ function isGreaterThanFive($num) {
   }
 }
 
+
 // Write your own "tests" below. A couple examples are provided for you.
+
 
 echo "\nTesting that 18 is greater than 5. Should return true.\n";
 if (isGreaterThanFive(18) == true) {
