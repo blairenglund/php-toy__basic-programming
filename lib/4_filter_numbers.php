@@ -8,7 +8,7 @@
 
 function filterNumbers($arr) {
   $smallNumbers = array();
-  foreach ($arrs as $i) {
+  foreach ($arr as $i) {
   	if ($i < 10) {
   		array_push($smallNumbers, $i);
   	}
