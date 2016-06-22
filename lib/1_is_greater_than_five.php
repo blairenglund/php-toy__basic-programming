@@ -37,6 +37,7 @@ else{
 }
 echo "\n-------------------------------------------------------------------\n";
 
+echo "\nTesting that 5 is not greater than 5. Should return false.\n";
 if (isGreaterThanFive(5) == false) {
   echo "Success!";
 }

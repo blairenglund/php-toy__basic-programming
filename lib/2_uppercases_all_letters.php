@@ -7,7 +7,7 @@
 // Run `bin/check` from the command line to execute the automated tests.
 
 function uppercasesAllLetters($str) {
-	strtoupper($str);
+	return strtoupper($str);
 }
 
 // Write your own "tests" below. Refer to the the examples from exercise #1.
