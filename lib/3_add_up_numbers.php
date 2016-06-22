@@ -8,6 +8,7 @@
 
 function addUpNumbers($arr) {
   return array_sum($arr);
+  echo array_sum($arr);
 }
 
 // Write your own "tests" below. Refer to the the examples from exercise #1.
@@ -33,7 +34,7 @@ else{
 echo "\n-------------------------------------------------------------------\n";
 
 echo "\nTesting that the sum of 1.5 + 2.5 + 4.75 is 8.75.\n";
-$arr3 = array(1.5, 2.5, 4.75)
+$arr3 = array(1.5, 2.5, 4.75);
 if (addUpNumbers($arr3) == 8.75) {
   echo "Success!";
 }

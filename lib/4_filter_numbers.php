@@ -13,7 +13,7 @@ function filterNumbers($arr) {
   		array_push($smallNumbers, $i);
   	}
   }
-  return $smallNumbers
+  return $smallNumbers;
 }
 
 // Write your own "tests" below. Refer to the the examples from exercise #1.
