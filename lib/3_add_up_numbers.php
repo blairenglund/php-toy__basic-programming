@@ -8,7 +8,6 @@
 
 function addUpNumbers($arr) {
   return array_sum($arr);
-  echo array_sum($arr);
 }
 
 // Write your own "tests" below. Refer to the the examples from exercise #1.

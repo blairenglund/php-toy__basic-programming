@@ -8,7 +8,7 @@
 
 function filterNumbers($arr) {
   $smallNumbers = array();
-  foreach ($i as $i) {
+  foreach ($arrs as $i) {
   	if ($i < 10) {
   		array_push($smallNumbers, $i);
   	}
@@ -20,7 +20,6 @@ function filterNumbers($arr) {
 
 echo "\nTesting that the function returns numbers less than 10 from the array.\n";
 if (filterNumbers(array(1, 2, 11)) == array(1, 2)) {
-  echo filterNumbers(array(1, 2, 11);
   echo "Success!";
 }
 else{
